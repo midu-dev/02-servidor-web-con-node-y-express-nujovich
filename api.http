@@ -1,0 +1,15 @@
+
+GET http://localhost:1234/
+
+### Get /logo.webp
+GET http://localhost:1234/logo.webp
+
+### POST /contacto
+POST http://localhost:1234/contacto
+Content-Type: application/json
+
+{
+    "name": "Juan",
+    "email": "juan@gmail.com",
+    "message": "Hola"
+}
