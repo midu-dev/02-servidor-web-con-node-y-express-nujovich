@@ -13,3 +13,13 @@ Content-Type: application/json
     "email": "juan@gmail.com",
     "message": "Hola"
 }
+
+### PUT /contacto
+PUT http://localhost:1234/contacto
+Content-Type: application/json
+
+{
+    "name": "Juan",
+    "email": "juan@gmail.com",
+    "message": "Hola"
+}
