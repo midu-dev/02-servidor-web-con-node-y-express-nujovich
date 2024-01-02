@@ -1,5 +1,7 @@
 {
 	"scripts": {
+		"start:http": "node --watch index.js",
+		"start:express": "node --watch express.js",
 		"lint": "standard",
 		"test": "npm run test:node && npm run test:express",
 		"test:node": "node --test ./test/index.js",
@@ -10,5 +12,8 @@
 	},
 	"eslintConfig": {
 		"extends": "standard"
+	},
+	"dependencies": {
+		"express": "4.18.2"
 	}
 }
